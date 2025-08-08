@@ -29,7 +29,8 @@
 
 
 import sys
-from logger import logging
+from src.logger import logging
+
 
 
 
@@ -56,5 +57,3 @@ if __name__ == "__main__":
     except Exception as e:
         logging.info("Divide by zero")
         raise CustomException(e, sys)
-
-
